@@ -12,7 +12,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-8+68m#&hftutp-pbt&f80@dl=nobu#elz@(vdlkg60u6ryr-^e'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['3.238.183.57','localhost', 'yourdomain.com']  # Add your domain name here
 
@@ -44,7 +44,7 @@ ROOT_URLCONF = 'hello_world.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates'],  # Optional, for centralizing templates
+        'DIRS': [BASE_DIR / 'polls/templates'],  # Point directly to the 'polls/templates' directory
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
