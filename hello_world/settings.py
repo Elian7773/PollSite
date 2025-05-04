@@ -14,7 +14,7 @@ SECRET_KEY = 'django-insecure-8+68m#&hftutp-pbt&f80@dl=nobu#elz@(vdlkg60u6ryr-^e
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['3.238.183.57','localhost', 'yourdomain.com']  # Add your domain name here
+ALLOWED_HOSTS = ['*']  # Add your domain name here
 
 
 # Application definition
